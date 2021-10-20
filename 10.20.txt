@@ -1,0 +1,51 @@
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+main()
+{
+	int a;
+	int b;
+	scanf("%d,%d", &a, &b);
+	printf("和：%d，差：%d，积：%d",a+b,a-b,a*b);
+	return 0;
+
+}
+
+
+
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+main()
+{
+    int day, year = 2020;
+    printf("My dear friends:\n");
+    for (day = 1; day < 31; day++)
+        printf("%d Happy a new year!\n", year);
+    printf("From Qianfeng\n");
+
+}
+
+
+
+
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+main()
+{
+	int a;
+	scanf("%d", &a);
+	if (a == 1)
+		printf("----小型汽车   收费标准 20元");
+	if (a == 2)
+		printf("----中型汽车   收费标准 30元");
+	if (a == 3)
+		printf("----大型汽车   收费标准 50元");
+	if (a == 4)
+		printf("----重型汽车   收费标准 80元");
+	if (a == 0)
+		printf("----特种汽车   免费");
+	return 0;
+}
